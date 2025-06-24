@@ -30,10 +30,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
               KC_LALT,KC_LCTL,LT(3,KC_SPC),MT(MOD_LGUI,KC_RCMD),     LT(1,KC_LNG1),                  KC_BSPC,LT(2,KC_ENT), RCTL_T(KC_LNG2),     KC_RALT  , TT(4)
   ),
 
+  // Auto Mouse Layer
   [1] = LAYOUT_universal(
-    SSNP_FRE ,  KC_F1   , KC_F2    , KC_F3   , KC_F4    , KC_F5    ,                                         KC_F6    , KC_F7    , KC_F8    , KC_F9    , KC_F10   , KC_F11   ,
-    SSNP_VRT ,  _______ , _______  , KC_UP   , KC_ENT   , KC_DEL   ,                                         KC_PGUP  , KC_BTN1  , KC_UP    , KC_BTN2  , KC_BTN3  , KC_F12   ,
-    SSNP_HOR ,  _______ , KC_LEFT  , KC_DOWN , KC_RGHT  , KC_BSPC  ,                                         KC_PGDN  , KC_LEFT  , KC_DOWN  , KC_RGHT  , _______  , _______  ,
+    XXXXXXX ,  KC_LOPT , XXXXXXX  , KC_UP   , XXXXXXX  , XXXXXXX  ,                                         XXXXXXX  , RCMD(KC_ROPT), KC_RCTL  , RCMD(KC_RCTL), XXXXXXX  , XXXXXXX  ,
+    XXXXXXX ,  KC_LSFT , KC_LEFT  , KC_DOWN , KC_RIGHT , XXXXXXX  ,                                         RGUI(KC_LEFT)  , KC_BTN1      , KC_BTN2  , RGUI(KC_RIGHT)  , KC_RCMD  , XXXXXXX  ,
+    XXXXXXX ,  XXXXXXX , XXXXXXX  , XXXXXXX , XXXXXXX  , XXXXXXX  ,                                         LSG(KC_N), LSG(KC_K)    , LAG(KC_L), XXXXXXX  , XXXXXXX  , XXXXXXX  ,
                   _______  , _______ , _______  ,         _______  , _______  ,                   _______  , _______  , _______       , _______  , _______
   ),
 
