@@ -24,10 +24,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // keymap for default (VIA)
   [0] = LAYOUT_universal(
-    XXXXXXX   , KC_Q                 , KC_W     , KC_E     , KC_R     , KC_T     ,                                        KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     , XXXXXXX   ,
+    XXXXXXX   , KC_Q                  , KC_W     , KC_E     , KC_R     , KC_T     ,                                        KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     , XXXXXXX   ,
     XXXXXXX   , MT(MOD_LCTL,KC_A)     , KC_S     , KC_D     , KC_F     , KC_G     ,                                        KC_H     , KC_J     , KC_K     , KC_L     , KC_MINS  , XXXXXXX  ,
     XXXXXXX   , MT(MOD_LSFT,KC_Z)     , KC_X     , KC_C     , KC_V     , KC_B     ,                                        KC_N     , KC_M     , KC_COMM  , KC_DOT   , MT(MOD_RSFT,KC_SLSH)  , XXXXXXX  ,
-              KC_LALT,KC_LCTL,LT(3,KC_SPC),MT(KC_LCMD,KC_RCMD),     LT(1,KC_LNG1),                  KC_BSPC,LT(2,KC_ENT), RCTL_T(KC_LNG2),     KC_RALT  , TT(3)
+              KC_LALT,KC_LCTL,LT(3,KC_SPC),MT(MOD_LGUI,KC_RCMD),     LT(1,KC_LNG1),                  KC_BSPC,LT(2,KC_ENT), RCTL_T(KC_LNG2),     KC_RALT  , TT(4)
   ),
 
   [1] = LAYOUT_universal(
